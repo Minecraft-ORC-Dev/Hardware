@@ -1,6 +1,6 @@
 # OSRISA
 
-The Open Source Redstone Instruction Set Architecture is the main component of ORC-Dev. It is important to note that the instuction set should be as backwards as compatiable as possible.
+The Open Source Redstone Instruction Set (OSRIS) is the main component of ORC-Dev. It is important to note that the instuction set should be as backwards as compatiable as possible.
 
 ## VERSION CONTROL
 
@@ -15,3 +15,7 @@ The version number shall be in the format <Major>.<Minor>.<Update>.
   * The Update Number shall update when changes in documentation (ie Rewording of Text or labels)
   
 When the `Major` version number increments the `Minor` and `Update` numbers shall go to 0. When the `Minor` version number increments the `Update` value shall return to 0.
+
+## Storage
+  
+All Versions of OSRIS shall be stroed in the ISA folder with file names corresponding to its version number using a `-` in place of the `.`. These files shall be in the `markdown` format.
